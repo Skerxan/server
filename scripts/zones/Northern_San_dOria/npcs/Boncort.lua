@@ -16,14 +16,14 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4364, 124, 3,    -- Black Bread
-        4356, 208, 2,    -- White Bread
-        4376, 124, 3,    -- Meat Jerky
-        4380, 228, 2,    -- Smoked Salmon
-        4509,  12, 3,    -- Distilled Water
-        4441, 967, 1,    -- Grape Juice
-        4423, 312, 2,    -- Apple Juice
-        5007, 189, 3,    -- Scroll of Sword Madrigal
+        LOAF_OF_BLACK_BREAD,            124, 3,
+        LOAF_OF_WHITE_BREAD,            208, 2,
+        STRIP_OF_MEAT_JERKY,            124, 3,
+        SMOKED_SALMON,                  228, 2,
+        FLASK_OF_DISTILLED_WATER,        12, 3,
+        BOTTLE_OF_GRAPE_JUICE,          967, 1,
+        BOTTLE_OF_APPLE_JUICE,          312, 2,
+        SCROLL_OF_SWORD_MADRIGAL,       189, 3,
     }
 
     player:showText(npc, ID.text.BONCORT_SHOP_DIALOG)
